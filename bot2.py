@@ -1,7 +1,7 @@
 import os
 import telebot
 
-bot = telebot.TeleBot('1734761310:AAHCXZqheeUklJU2DbbxWXO43ax2N-cv-zc') #anadimos el token
+bot = telebot.TeleBot('') #anadimos el token
 
 @bot.message_handler(commands=['hola', 'hi']) #definimos el comando
 def saludo(mensaje):
